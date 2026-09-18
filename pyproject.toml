@@ -1,0 +1,17 @@
+[project]
+name = "basic-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu==1.8.0.post1",
+    "fastapi==0.115.0",
+    "google-generativeai==0.8.3",
+    "pydantic==2.9.2",
+    "pypdf==4.3.1",
+    "python-dotenv==1.0.1",
+    "python-multipart==0.0.9",
+    "sentence-transformers==3.0.1",
+    "uvicorn[standard]==0.30.6",
+]
